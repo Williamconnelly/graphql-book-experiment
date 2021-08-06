@@ -1,0 +1,10 @@
+<ng-container *ngFor="let book of bookList | async">
+  <div class="card">
+    <div class="container">
+      <h4><b>{{book.name}}</b></h4>
+      <ul>
+        <li>{{book.genre}}</li>
+      </ul>
+    </div>
+  </div>
+</ng-container>
